@@ -1,0 +1,17 @@
+server:
+  port: 8080
+#redis配置
+cache:
+  redis:
+    enabled: true
+    encryption: false
+    userCluster: false
+    hosts: 127.0.0.1
+    port: 6379
+    maxIdle: 10
+    maxWait: 1000000
+    maxConnection: 500
+    #userName: ENC(XswTXapvC+BhJM39u26TTA==)   #jasypt 加密
+    #password: ENC(XswTXapvC+BhJM39u26TTA==)   #jasypt 加密
+    userName:
+    password:
